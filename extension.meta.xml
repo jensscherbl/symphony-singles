@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="singles" status="experimental" xmlns="http://getsymphony.com/schemas/extension/1.0">
+    <name>Singles</name>
+    <description>Create single entry sections.</description>
+    <repo type="github">https://github.com/jensscherbl/singles</repo>
+    <types>
+        <type>Workflow</type>
+    </types>
+    <authors>
+        <author>
+            <name github="jensscherbl" symphony="jensscherbl">Jens Scherbl</name>
+        </author>
+    </authors>
+    <releases>
+        <release version="0.1.0" date="2014-12-30" min="2.6.x" max="2.x.x"/>
+    </releases>
+</extension>
