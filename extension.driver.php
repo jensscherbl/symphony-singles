@@ -68,6 +68,13 @@ Class Extension_Singles extends Extension
 
     public function adminPagePostCallback($context)
     {
+        // check if logged in
+
+        if (!Administration::instance()->isLoggedIn()) {
+
+            return;
+        }
+
         // check driver
 
         if ($context['callback']['driver'] !== 'publish') {
@@ -175,11 +182,6 @@ Class Extension_Singles extends Extension
         // get breadcrumbs
 
         $breadcrumbs = $context['oPage']->Breadcrumbs;
-
-        if (!$breadcrumbs) {
-
-            return;
-        }
 
         // get section name
 
