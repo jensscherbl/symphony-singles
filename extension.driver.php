@@ -176,6 +176,11 @@ Class Extension_Singles extends Extension
 
         $breadcrumbs = $context['oPage']->Breadcrumbs;
 
+        if (!$breadcrumbs) {
+
+            return;
+        }
+
         // get section name
 
         $section = $breadcrumbs
