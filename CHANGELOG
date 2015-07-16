@@ -1,0 +1,14 @@
+Changelog
+
+0.1.2 (2015-06-10)
+
+- Better fix for previous commit.
+
+0.1.1 (2015-06-10)
+
+- Fixed issue when trying to access a section while not logged in.
+
+0.1.0 (2014-12-30)
+
+- Requires Symphony 2.6.x.
+- Initial release.
