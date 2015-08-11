@@ -8,24 +8,24 @@ Class Extension_Singles extends Extension
 
     public function getSubscribedDelegates()
     {
-        return array(
-
-            array('page'     => '/backend/',
-                  'delegate' => 'AdminPagePostCallback',
-                  'callback' => 'adminPagePostCallback'),
-
-            array('page'     => '/backend/',
-                  'delegate' => 'AppendPageAlert',
-                  'callback' => 'appendPageAlert'),
-
-            array('page'     => '/backend/',
-                  'delegate' => 'AdminPagePreGenerate',
-                  'callback' => 'adminPagePreGenerate'),
-
-            array('page'     => '/blueprints/sections/',
-                  'delegate' => 'AddSectionElements',
-                  'callback' => 'addSectionElements')
-        );
+        return
+        [[
+            'page'     => '/blueprints/sections/',
+            'delegate' => 'AddSectionElements',
+            'callback' => 'addSectionElements'
+        ],[
+            'page'     => '/backend/',
+            'delegate' => 'AdminPagePostCallback',
+            'callback' => 'adminPagePostCallback'
+        ],[
+            'page'     => '/backend/',
+            'delegate' => 'AppendPageAlert',
+            'callback' => 'appendPageAlert'
+        ],[
+            'page'     => '/backend/',
+            'delegate' => 'AdminPagePreGenerate',
+            'callback' => 'adminPagePreGenerate'
+        ]];
     }
 
     // install
