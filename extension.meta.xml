@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension id="singles" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0/">
+<?xml version="1.0" encoding="utf-8"?>
+<extension id="singles" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
     <name>Singles</name>
     <description>Create single entry sections.</description>
-    <repo type="github">http://github.com/jensscherbl/singles/</repo>
+    <repo type="github">http://github.com/jensscherbl/symphony-singles</repo>
     <types>
         <type>Workflow</type>
     </types>
@@ -12,6 +12,7 @@
         </author>
     </authors>
     <releases>
+        <release version="1.0.1" date="2015-08-22" min="2.6.x" max="2.x.x"/>
         <release version="1.0.0" date="2015-07-16" min="2.6.x" max="2.x.x"/>
         <release version="0.1.2" date="2015-06-10" min="2.6.x" max="2.x.x"/>
         <release version="0.1.1" date="2015-06-10" min="2.6.x" max="2.x.x"/>
