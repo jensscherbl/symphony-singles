@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension id="symphony-singles" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+<extension id="singles" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
     <name>Singles</name>
     <description>Create single entry sections.</description>
     <repo type="github">http://github.com/jensscherbl/symphony-singles</repo>
